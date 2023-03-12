@@ -1,0 +1,16 @@
+### Programming & Problem Solving
+
+In order to solve a particular problem we follow some steps:
+
+1. first understand the problem completly 
+2. given values to solve the problem
+3. figure out the approach to solve the problem
+4. create a program using the approach
+
+### FLOWCHARTS
+
+It is a diagramatic representation of an approach for solving a problem which consist of different types of component connected to each other. components describe the flow of flowchart ex , The start and end of an program is describes by "TERMINAL" component which is in rectangular oval shape and it is always the first and last component of a flowchart , The input/output of a program is described by "parellelogram" component , The processing or calculation is described by "RECTANGULAR" component , The decision making or condition like if else etc  is described by "DIAMOND OR RHOMBUS" component which have only 2 output either yes or no , The program flow or to connect these components together is described by "ARROWS" , Whenever flowchart becomes complex or it spreads over more than one page, it is useful to use "CONNECTORS" to avoid any confusions it is represented by a circle.  
+
+### PSEUDOCODE
+
+It is a way of representing a approach or login to solve a problem in a GENERIC WAY (understood by any programmer) Every language have different way or syntax of writing the code but pseudocode is the generic way of representing our login , using pseudocode we can code it in any language we want , syntax can be different but flow will be same 

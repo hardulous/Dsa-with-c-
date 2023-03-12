@@ -1,0 +1,10 @@
+### FIRST PROGRAM
+
+We know to solve a problem or tell computer to perform some task we create a program or source code to be used by computer to do that task , But the source we write is written in high level language (HLL) like in c++ , java , js etc and it is not understood by computer as computer only know 0 or 1 (bits) binary language , so to allow computer understand our source code we need something that will translate the source code to computer binary language and for this translation task "COMPILER" is used to convert our source code to machine executable format file and this file computer can execute or run to perform the task , And this whole process is know as "COMPILATION"
+
+Compiler perform some tasks:
+
+1. Handle translation of source code to machine understand format
+2. Find the compile time or run time error in our source code 
+
+To write program we need a IDE stands for "INTERGRATED DEVELOPMENT ENVIORNMENT" where we can write code or execute that code like vs-code , code-blocks etc...
