@@ -46,6 +46,8 @@ int main(){
   }
 
   cout<<answer<<endl;
+
+  // here binary to decimal can not be solved by bitwise operator & or >> because we know we are considering the input let say 1011 as binary number but actually it is decimal number and performing bitwise on decimal no 1011 which we are considering binary will be different.
   
 }
 
