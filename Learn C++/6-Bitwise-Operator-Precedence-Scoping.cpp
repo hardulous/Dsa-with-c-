@@ -152,6 +152,23 @@ int main()
     }
     cout<<"Difference of sum and product "<<sum<<" "<<product<<" is => "<<product-sum<<endl;
 
+    cout<<"Question 2"<<endl;
+    
+    uint32_t number2;  // uint32_t is an unsigned integer which is guaranteed to be exactly 4 bytes in size.
+    cin>>number2;     
+    int count = 0;
+
+    while(number2!=0){   // even though number is used in integer format but operation will be performed in binary digit level
+        if(number2&1){   // if come inside means 1 bit is present at 0th position because & with 1 will give non zero value or true
+            count+=1;
+        }
+        number2>>=1;     // now update the 0th position of binary number by shifting all digits to right
+    }
+
+    cout<<"Number of 1 bits in "<<number2<<" => "<<count;
+
+
+
 }
 
 /* BITWISE OPERATOR IN C++
@@ -252,5 +269,11 @@ n = 234 , Output = 15
 
 as product = 2*3*4 = 24 
    sum = 2+3+4 = 9        and 24 - 9 => 15 
+
+2. Write a code that takes an unsigned integer and returns the number of '1' (set-bit) it has (also know as the hamming weight)
+
+n = 00000000000000000000000000001011 , Output = 3 
+
+as the input binary string has a total of three '1' bits
 
 */
